@@ -31,7 +31,15 @@
         <activity android:name=".EEE_First_Year" />
         <activity android:name=".EEE_Second_Year" />
         <activity android:name=".EEE_Third_Year" />
-        <activity android:name=".EEE_Fourth_Year"></activity>
+        <activity android:name=".EEE_Fourth_Year" />
+        <activity android:name=".Civil_First_Year" />
+        <activity android:name=".Civil_Second_Year" />
+        <activity android:name=".Civil_Third_Year" />
+        <activity android:name=".Civil_Fourth_Year" />
+        <activity android:name=".BBA_First_Year" />
+        <activity android:name=".BBA_Second_Year" />
+        <activity android:name=".BBA_Third_Year" />
+        <activity android:name=".BBA_Fourth_Year"></activity>
     </application>
 
 </manifest>
