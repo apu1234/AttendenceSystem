@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.apu.attendencesystem">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Interface" />
+        <activity android:name=".Registration" />
+        <activity android:name=".Login" />
+        <activity android:name=".Department" />
+        <activity android:name=".CSE_Year" />
+        <activity android:name=".EEE_Year" />
+        <activity android:name=".CSE_First_Year" />
+        <activity android:name=".CSE_Second_Year" />
+        <activity android:name=".CSE_Third_Year" />
+        <activity android:name=".CSE_Fourth_Year" />
+        <activity android:name=".Civil_Year" />
+        <activity android:name=".BBA_Year" />
+        <activity android:name=".EEE_First_Year" />
+        <activity android:name=".EEE_Second_Year" />
+        <activity android:name=".EEE_Third_Year" />
+        <activity android:name=".EEE_Fourth_Year"></activity>
+    </application>
+
+</manifest>
